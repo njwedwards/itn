@@ -23,7 +23,7 @@ CREATE ROLE readonly;
 
 This will grant select access on every table.
 
-    
+```    
     #!/bin/sh
     
     tables=$(psql database -A -t -c "SELECT table_name FROM information_schema.tables  
@@ -34,7 +34,7 @@ This will grant select access on every table.
     echo "Granting select to readonly on $table"
     psql database -c "GRANT SELECT ON $table to readonly;"
     done
-    
+``` 
     
 
 **Grant readonly role to existing user**

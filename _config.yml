@@ -15,7 +15,7 @@ baseurl: ''
 
 
 # This can be '' to hide the Github nav button
-github: 'scotte/jekyll-clean'
+github: ''
 
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
@@ -26,7 +26,7 @@ gaaccount: ''
 disqus: ''
 comments: true
 
-# permalink: /:year/:month/:title
+permalink: /:title
 paginate: 3
 
 highlighter: pygments
