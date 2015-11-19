@@ -30,6 +30,6 @@ Very helpful <img src="http://itn.uk.to/wp-includes/images/smilies/simple-smile.
 
 UPDATE:
 
-In order to update the BMC controller on an old PE SC1425 I had to use the Centos 5.6 i386 livecd and ensure that I installed &#8216;compat-libstdc++-33.i386&#8242;. Before doing this I had tried to install the .BIN file in other version of Centos and Ubuntu but could not get it to work.
+In order to update the BMC controller on an old PE SC1425 I had to use the Centos 5.6 i386 livecd and ensure that I installed &#8216;compat-libstdc++-33.i386&#8242;.B Before doing this I had tried to install the .BIN file in other version of Centos and Ubuntu but could not get it to work.
 
  [1]: http://linux.dell.com/files/openmanage-contributions/om73-firmware-live/Centos64-OM73-Firmware-LiveDVD.x86_64-1.1.0-Build8.1.iso "http://linux.dell.com/files/openmanage-contributions/om73-firmware-live/Centos64-OM73-Firmware-LiveDVD.x86_64-1.1.0-Build8.1.iso"
