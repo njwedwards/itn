@@ -15,10 +15,10 @@ I use Centos a lot however it always seem to be missing the packages I need, unl
 Install RPMForge and EPEL on Centos 6:  
 
 ```
-wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm<br />
-sudo rpm -Uvh epel-release-6*.rpm<br />
-wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm<br />
-rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt<br />
+wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+sudo rpm -Uvh epel-release-6*.rpm
+wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el6.rf.x86_64.rpm
+rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
 rpm -i rpmforge-release-0.5.2-2.el6.rf.*.rpm
 ```
 
