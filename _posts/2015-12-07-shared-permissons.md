@@ -5,9 +5,6 @@ layout: post
 published: true
 ---
 
-
-# Default permisions for shared folder
-
 Set new files/folder to inherit the parent folder group
 
 	sudo setgid g+s /home/folder
