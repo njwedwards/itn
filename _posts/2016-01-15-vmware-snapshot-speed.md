@@ -1,5 +1,5 @@
 ---
-title: Default shared folder permissions
+title: VMware snapshot speed
 author: nedwards
 layout: post
 published: true
