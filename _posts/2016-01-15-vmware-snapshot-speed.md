@@ -5,9 +5,10 @@ layout: post
 published: true
 ---
 
+
 ## VMware snapshot speed
 
-A user notified me that write speed way slow on a VMware ESXi 5.5 guest.
+A user notified me that write speed was slow on a VMware ESXi 5.5 guest.
 
 It appears that snapshots were the culpret. Using local storage with a snapshot the write speed (using dd) was 15MB/s and without it was running at 60MB/s.
 
