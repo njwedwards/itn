@@ -52,3 +52,8 @@ Issue caused by not having anything for &#8220;remoteip&#8221; in /tmp/pptpd/ppt
 
 To run pptpd from cli:  
 pptpd -c /tmp/pptpd/pptpd.conf -o /tmp/pptpd/options.pptpd
+
+
+**UPDATE 2017/08/06**
+
+The updated firmware is now at <ftp://ftp.dd-wrt.com/betas/2017/08-03-2017-r33006/dlink-dir615d/>
