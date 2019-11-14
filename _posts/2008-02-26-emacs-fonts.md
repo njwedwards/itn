@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Emacs fonts
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:03.434Z'
+modified: '2019-10-18T14:22:56.241Z'
 ---
+
 If like me you use emacs the default fonts are not that great.
 
 Just use the following, condensed from <http://peadrop.com/blog/2007/01/06/pretty-emacs/>

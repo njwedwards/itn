@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Securely wiping disks
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:04.879Z'
+modified: '2019-10-18T14:22:56.555Z'
 ---
+
 I needed to wipe all the data from a set of Dell servers.
 
 I decided to use [DBAN][1]. It gives you quite a lot of different methods to securely wipe your hard disks.

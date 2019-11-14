@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Using Screen
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:01.719Z'
+modified: '2019-10-18T14:22:57.151Z'
 ---
+
 The unix program screen can be very helpful. Its good because the session that you are using will continue to run after you log off. This is especially useful if you are doing a download or running a command that takes a long time. Below are some common commands:
 
 C-a n = next  

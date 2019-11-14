@@ -1,12 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Postgres readonly access
-author: nedwards
-layout: post
-categories:
-  - Postgres
-tags:
-  - Postgres
+created: '2019-09-29T11:18:03.630Z'
+modified: '2019-10-18T14:31:51.989Z'
 ---
+
 Having used MySQL quite a bit in the past. I have been used to being able to setup a read only user for a database. In PostgreSQL things work a bit differently. In order to allow read only access you need to assign SELECT access on each table to a role.
 
 The following seems to work.

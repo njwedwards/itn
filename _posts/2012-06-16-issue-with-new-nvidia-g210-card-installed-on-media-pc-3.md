@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Issue with new Nvidia G210 card installed on media pc
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:04.637Z'
+modified: '2019-10-18T14:22:56.323Z'
 ---
+
 After installing a new Nvidia G210 card in my media pc, the machine was not working right. The keyboard and mouse were very slow and the usb wifi was not working.
 
 I eventually found that it was caused by:

@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: ssh login delay
-author: nedwards
-layout: post
-categories:
-  - Linux
+created: '2019-09-29T11:18:03.439Z'
+modified: '2019-10-18T14:22:56.780Z'
 ---
+
 Sometimes I get a delay when trying to login to a Linux server using SSH.
 
 A good way around this is to use the following in /etc/ssh/sshd_config:

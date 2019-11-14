@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Using tar and output
-author: nedwards
-layout: post
-categories:
-  - backup
+created: '2019-09-29T11:18:02.578Z'
+modified: '2019-10-18T14:22:57.185Z'
 ---
+
 By default tar will complain about the leading / in filenames (/bin/tar: Removing leading \`/&#8217; from member names). To ensure this does not happen use:
 
 /bin/tar -jcf file.tar.bz2 -C / etc/ 

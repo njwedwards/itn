@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Clone hard disk with VMware ESXi
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:04.465Z'
+modified: '2019-10-18T14:22:56.059Z'
 ---
+
 I have been using VMware ESXi (4.1) a lot recently and have been using disk clones so that I don&#8217;t have to do a new OS install every time.
 
 The issue is that I am using thin provisioning and when you do a copy if you are using NFS then it will change and allocate all of the space in the resulting copy. Not helpful!

@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: VMware disk limits
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:04.466Z'
+modified: '2019-10-18T14:22:57.218Z'
 ---
+
 It appears that the vmdk limit on ESXi 4.1 (and 5) is around 2TB (2TB &#8211; 512Bytes).
 
 It makes no difference if it is being stored on NFS with a file system that supports a larger file either.  

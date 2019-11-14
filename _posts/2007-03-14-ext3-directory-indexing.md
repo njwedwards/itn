@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Ext3 Directory Indexing
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:01.718Z'
+modified: '2019-10-18T14:22:56.260Z'
 ---
+
 At work we run Courier IMAP and for a long time things have run quite slowly when the directory has more than a couple of thousand messages in it. A while back I discovered the dir_index option for the ext3 file system. Well today I enabled this on the partition that serves the email and the performance is like lightning now compared to what it was. My inbox now takes about 0.7 seconds to load via the webmail compared to what it was before which was 3 or 4 seconds at least.
 
 **Update, as I have been using this further I have noticed that the fast load times are not always the case especially on folders that change often like the inbox.**

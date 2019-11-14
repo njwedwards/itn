@@ -1,8 +1,8 @@
 ---
+tags: [Notebooks/itblog]
 title: VMware snapshot speed
-author: nedwards
-layout: post
-published: true
+created: '2019-09-29T11:18:05.568Z'
+modified: '2019-10-18T14:22:57.244Z'
 ---
 
 

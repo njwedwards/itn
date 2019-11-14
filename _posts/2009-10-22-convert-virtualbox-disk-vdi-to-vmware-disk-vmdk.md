@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Convert Virtualbox disk (.vdi) to VMware disk (.vmdk)
-author: nedwards
-layout: post
-categories:
-  - Virtualisation
+created: '2019-09-29T11:18:03.632Z'
+modified: '2019-10-18T14:22:56.103Z'
 ---
+
 I needed to do this recently and found that the instructions on the net that told me to just use qemu did not work as the hard disk would not boot.
 
 Then I found the following set of commands:

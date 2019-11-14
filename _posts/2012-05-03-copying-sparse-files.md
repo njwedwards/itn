@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Copying sparse files
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:04.467Z'
+modified: '2019-10-18T14:22:56.123Z'
 ---
+
 As I have been dealing a lot with VMware recently, I have come across issues when copying the [sparse][1] files that are created when you create a thin provisioned disk in VMware ESXi.
 
 The problem has been that when you do a copy (cp) in Linux, the command tries to read all of the data from the file, even when there is nothing in most of it, which is the case in a fairly empty sparse file. This would not normally be an issue but becomes one when you have multiple 2TB files!

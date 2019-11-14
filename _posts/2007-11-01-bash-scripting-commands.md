@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Bash scripting commands
-author: nedwards
-layout: post
-categories:
-  - Bash
+created: '2019-09-29T11:18:02.579Z'
+modified: '2019-10-18T14:22:56.013Z'
 ---
+
 Working on commands today, I have found that the use of backticks (\`) in bash has been superseded by the following:
 
 The use of $( command )

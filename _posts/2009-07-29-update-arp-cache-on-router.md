@@ -1,13 +1,10 @@
 ---
+tags: [linux, Notebooks/itblog]
 title: Update ARP cache on router
-author: nedwards
-layout: post
-categories:
-  - Linux
-tags:
-  - Linux
-  - routing
+created: '2019-09-29T11:18:03.632Z'
+modified: '2019-10-18T14:33:14.160Z'
 ---
+
 A couple of times in the past I have had issues when migrating from one server to another behind a router. By this I mean bringing the interface of one server down and then assigning the same ip address to another server. So by doing this you do not have to change a dns records.
 
 However there is sometimes as issue which is that the arp cache on the router is not updated with the new mac address, so the router is still looking for the old mac address.

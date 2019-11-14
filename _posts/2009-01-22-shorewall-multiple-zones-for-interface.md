@@ -1,13 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Shorewall multiple zones for interface
-author: nedwards
-layout: post
-categories:
-  - Firewall
-  - Linux
-  - PPTP
-  - VPN
+created: '2019-09-29T11:18:03.629Z'
+modified: '2019-10-18T14:22:56.699Z'
 ---
+
 It is possible to have multiple zones for a specific interface with shorewall. This is helpful if you want run services on a local ip address behind a nat firewall. I think that you need at least shorewall 3 to do this.
 
 /etc/shorewall/zones  

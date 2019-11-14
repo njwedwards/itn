@@ -1,10 +1,8 @@
 ---
+tags: [Notebooks/itblog]
 title: Centos Extra Repositories
-author: nedwards
-layout: post
-categories: 
-  - Linux
-published: true
+created: '2019-09-29T11:18:05.398Z'
+modified: '2019-10-18T14:22:56.036Z'
 ---
 
 I use Centos a lot however it always seem to be missing the packages I need, unlike Debian which seems to have everything by default. In order to help do the following.

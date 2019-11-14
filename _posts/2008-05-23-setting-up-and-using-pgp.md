@@ -1,12 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Setting up and using PGP
-author: nedwards
-layout: post
-categories:
-  - backup
-  - Bash
-  - Linux
+created: '2019-09-29T11:18:03.436Z'
+modified: '2019-10-18T14:22:56.605Z'
 ---
+
 During the course of my work, I have needed to setup gnupg for exchanging and protecting sensitive information. On a standard Ubuntu install this should be already installed. As an aside a good Linux GUI for this is [Seahorse][1]
 
 Firstly generate and new key pair. Just accept the defaults and use your email address as the id.  

@@ -1,14 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Net-SNMP on OmniOS
-author: nedwards
-layout: post
-categories:
-  - Solaris
-tags:
-  - omnios
-  - snmp
-  - solaris
+created: '2019-09-29T11:18:05.565Z'
+modified: '2019-10-18T14:33:25.374Z'
 ---
+
 Install from repository:
 
 > pkg install system/management/snmp/net-snmp

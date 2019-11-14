@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Command history autocompletion
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:02.277Z'
+modified: '2019-10-18T14:22:56.083Z'
 ---
+
 Having used Gentoo quite a bit in the past, I had got used to using PageUp and PageDown to auto complete commands stored in your ./bash_history file. Well using Ubuntu and other distributions this did not seem to work.
 
 Today I found out that you can enable this by adding the following to your /etc/inputrc:

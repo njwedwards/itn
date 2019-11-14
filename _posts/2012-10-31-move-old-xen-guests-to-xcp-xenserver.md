@@ -1,17 +1,10 @@
 ---
+tags: [linux, Notebooks/itblog]
 title: Move old Xen guests to XCP (Xenserver)
-author: nedwards
-layout: post
-tagazine-media:
-  - 'a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";i:0;s:6:"author";s:6:"606253";s:7:"blog_id";s:6:"846587";s:9:"mod_stamp";s:19:"2013-01-04 15:09:21";}'
-categories:
-  - Linux
-  - Virtualisation
-  - Xen
-tags:
-  - Linux
-  - xen
+created: '2019-09-29T11:18:04.775Z'
+modified: '2019-10-18T14:32:13.471Z'
 ---
+
 I have been looking at moving some old paravirtualised Xen guests (running Debian Lenny) from a host running Xen 3.2.1 and Xen Tools 3.9 to a new host runnning XCP 1.6.
 
 It has not proved to be as simple as expected. However it should be possible following the (rough) notes below.

@@ -1,13 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Install Tomcat 6 on Debian Lenny with pinning
-author: nedwards
-layout: post
-categories:
-  - Linux
-  - Tomcat
-tags:
-  - Tomcat
+created: '2019-09-29T11:18:04.252Z'
+modified: '2019-10-18T14:32:36.667Z'
 ---
+
 I recently needed to install tomcat 6 on debian lenny, however it is not in the repository and there is no backport.
 
 There were two options, either use the tar or install the debian testing package. I have opted for the testing package as it is a debian specific setup and integrates properly.

@@ -1,12 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Sending email from Linux system to relay host
-author: nedwards
-layout: post
-categories:
-  - Email
-tags:
-  - email
+created: '2019-09-29T11:18:04.774Z'
+modified: '2019-10-18T14:32:52.069Z'
 ---
+
 The default install in Centos/RHEL and Debian seems to be to install Exim or Postfix. For what I usually need and that is just sending root email to my email address, this is too much. Also it can frustrating trying to get the &#8216;FROM&#8217; address to be correct.
 
 ESMTP comes in very handy here. It will just send email on to your relay server and allow you to change the domain where the email comes from.

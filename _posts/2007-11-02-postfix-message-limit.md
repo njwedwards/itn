@@ -1,12 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Postfix message limit
-author: nedwards
-layout: post
-categories:
-  - Email
-  - Linux
-  - Postfix
+created: '2019-09-29T11:18:03.248Z'
+modified: '2019-10-18T14:22:56.469Z'
 ---
+
 Today integrit was trying to send a message and postfix was giving the following error:
 
 <pre>Nov  2 11:17:16 mail postfix/postdrop[15184]: warning: uid=0: Illegal seek

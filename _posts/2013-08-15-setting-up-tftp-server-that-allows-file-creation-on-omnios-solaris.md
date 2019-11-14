@@ -1,16 +1,10 @@
 ---
+tags: [Notebooks/itblog, solaris]
 title: Setting up tftp server that allows file creation on OmniOS (Solaris)
-author: nedwards
-layout: post
-geo_public:
-  - 0
-categories:
-  - Solaris
-tags:
-  - omnios
-  - solaris
-  - tftp
+created: '2019-09-29T11:18:05.399Z'
+modified: '2019-10-18T14:33:22.862Z'
 ---
+
 Following on from my previous post on installing [TFTP on Centos][1].
 
 I went ahead and installed the default version, however it does not allow clients to add new files. I had to therefore to compile tftpd-hpa as I could not find an appropriate pre-complied package. The following steps should work:

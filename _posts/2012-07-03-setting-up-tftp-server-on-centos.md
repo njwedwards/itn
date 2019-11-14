@@ -1,15 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Setting up tftp server on Centos
-author: nedwards
-layout: post
-categories:
-  - backup
-  - Linux
-tags:
-  - enterprise-it
-  - trivial file transfer
-  - trivial file transfer protocol
+created: '2019-09-29T11:18:04.638Z'
+modified: '2019-10-18T14:31:31.685Z'
 ---
+
 When setting up the default tftp server on Centos Linux I have had issues. 
 
 The server will be used for backing up config files from Cisco and similar devices.

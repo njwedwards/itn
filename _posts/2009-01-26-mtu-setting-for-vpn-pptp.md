@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: MTU setting for VPN (pptp)
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:03.630Z'
+modified: '2019-10-18T14:22:56.418Z'
 ---
+
 I had an issue with stalling connections from Ubuntu Intrepid, connecting to a Poptop pptp server. The issue was arising when using ssh, doing an scp transfer or when browsing over http.
 
 The mtu setting was set too high (1496), however was fixed with the following.

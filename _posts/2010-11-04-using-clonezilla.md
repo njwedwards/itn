@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Using Clonezilla
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:04.464Z'
+modified: '2019-10-18T14:22:57.118Z'
 ---
+
 I have just had the task of configuring 50 netbooks for a specific purpose. As I had already done a few of these before I knew it would be a good idea to try to clone one of the disks and use this on the others.
 
 I came across Clonezilla a while back, and basically it&#8217;s an open source alternative to Norton Ghost. You can run it as a server or on a cd or usb drive. I decided to use the server option as I had so many netbooks to setup.

@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: ARP issue with xen bridge
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:04.463Z'
+modified: '2019-10-18T14:22:55.986Z'
 ---
+
 I have been using Xen with network bridging for a while and things have been working well. However I started to see strange behaviour on a specific new guest (domU). Connectivity on the public bridged interface would be intermittent. Up for a while and then down for a while. It turns out that some arp queries were not being answered and so the guest (domU) host did not know the mac address for a particular ip (the gateway) for a period of time. I then observed this on other hosts.
 
 After much digging and looking at tcpdump output, I set the arp address manually on the affected guests. After a while though I decided to specify the network bridges in Debian, instead of letting the Xen scripts do their work as I had heard that they can cause issues.

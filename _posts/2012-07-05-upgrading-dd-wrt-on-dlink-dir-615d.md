@@ -1,21 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Upgrading DD-WRT on Dlink DIR-615d
-author: nedwards
-layout: post
-geo_public:
-  - 0
-categories:
-  - Firewall
-  - Linux
-  - PPTP
-  - SSH
-  - VPN
-tags:
-  - dd wrt
-  - pptp server
-  - ssh server
-  - v24
+created: '2019-09-29T11:18:04.638Z'
+modified: '2019-10-18T14:32:04.759Z'
 ---
+
 I have been running quite an old build (&#8220;Firmware: DD-WRT v24-sp2 (11/21/10) std&#8221;) of DD-WRT for quite a while. I have wondered why there have been no updates to speak of. It has been working well generally.
 
 However it turns out the builds are at ftp://dd-wrt.com/others/eko/BrainSlayer-V24-preSP2/

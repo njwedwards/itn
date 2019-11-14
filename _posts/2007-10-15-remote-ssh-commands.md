@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Remote SSH Commands
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:02.451Z'
+modified: '2019-10-18T14:22:56.540Z'
 ---
+
 In order to use remote ssh commands:
 
 `ssh  hostname remotecommandname `

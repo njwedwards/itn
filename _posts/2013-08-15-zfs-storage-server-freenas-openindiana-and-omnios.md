@@ -1,17 +1,10 @@
 ---
+tags: [Notebooks/itblog, solaris]
 title: 'ZFS storage server &#8211; FreeNAS, Openindiana and OmniOS'
-author: nedwards
-layout: post
-geo_public:
-  - 0
-categories:
-  - Uncategorized
-tags:
-  - freenas
-  - omnios
-  - openindiana
-  - solaris
+created: '2019-09-29T11:18:05.400Z'
+modified: '2019-10-18T14:33:28.021Z'
 ---
+
 Having played about with ZFS on Linux previously and wanting to try out a new backup storage solution, I decided to install a new server. One that would be a good fit for ZFS and also preferably give some sort of front-end to help with configuration.  Having looked around at options it appeared that FreeNAS or a Solaris derivative (Openindiana or OmniOS) were the ways to go.
 
 After some reading I decided on FreeNAS (9.1 RC2 x64). I downloaded and eventually installed onto a usb drive.

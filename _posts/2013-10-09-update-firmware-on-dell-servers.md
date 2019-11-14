@@ -1,18 +1,10 @@
 ---
+tags: [hardware, linux, Notebooks/itblog]
 title: Update firmware on Dell servers
-author: nedwards
-layout: post
-categories:
-  - Dell
-  - Hardware
-  - Linux
-  - Solaris
-tags:
-  - dell
-  - hardware
-  - Linux
-  - update
+created: '2019-09-20T18:47:29.519Z'
+modified: '2019-10-18T14:31:35.606Z'
 ---
+
 We run Linux a lot on Dell servers but also now Omnios (Solaris). Had an issue on a server and wanted to update the firmware. There did not appear to be an easy way to do this when not running (Linux/Windows).
 
 What I did find was that there is a Dell (unoffical) Centos LiveCD, containing the latest firmware (related to Poweredge servers I think), that can be booted and will give you the option to update the firmware easily.

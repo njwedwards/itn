@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Use Keepass with Dropbox
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:04.463Z'
+modified: '2019-10-18T14:22:57.085Z'
 ---
+
 I have been using Keepass (KeepassX) for a while now (replacing Password Safe). It works well and does everything I need. There is even an Android app (KeePassDroid), along with ports for other platforms <http://keepass.info/download.html>.
 
 Storing files on Dropbox, means they are always available on any computers that are linked to your Dropbox account. Dropbox also now has an Android client so you can view files on your phone.

@@ -1,10 +1,10 @@
 ---
+tags: [Notebooks/itblog]
 title: Setting up Openfiler with 3x Dell MD1200 enclosures
-author: nedwards
-layout: post
-categories:
-  - Uncategorized
+created: '2019-09-29T11:18:04.465Z'
+modified: '2019-10-18T14:22:56.627Z'
 ---
+
 At work I have recently setup 3 Dell MD1200 storage enclosures. Each of these enclosures contains 12 3TB SAS drives. The external enclosures are connected via a Dell H800 card, the server being used is a Dell Poweredge 1950. The aim is to use the server primarily as a SAN, serving various ESXi hosts making use of iSCSI and NFS.
 
 ## Storage
